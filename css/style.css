@@ -115,6 +115,7 @@ iframe {
 }
 .cols3 {
   column-count: 3;
+  margin-top: 15px;
 }
 
 #shoes {
