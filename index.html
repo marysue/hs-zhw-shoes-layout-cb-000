@@ -27,30 +27,26 @@
     </div>
     <!--/////////// Ends Social Bar //////////-->
 
-    <!--/////////// Header //////////-->
-    <header>
 
-      <!--/////////// Logo Panel //////////-->
-      <div id="logo" class="shadow">
+    <header><!--/////////// Header //////////-->
+      <div id="logo" class="shadow"><!--/////////// Logo Panel //////////-->
         <div class="wrapper">
           <h1>ZHW</h1>
           <h2>Shoes</h2>
         </div><!-- .wrapper -->
-      </div>
-      <!--/////////// Ends Logo Panel //////////-->
+      </div><!--/////////// Ends Logo Panel //////////-->
 
-      <!--/////////// Nav Bar //////////-->
-      <div id="nav_bar">
+      <!-- #nav_bar has a fixed position, at the top of the page
+      so it doesn't matter where the code is placed for this -->
+      <div id="nav_bar"><!--/////////// Nav Bar //////////-->
         <div class="wrapper">
           <nav>
             <a href="#">About</a><a class="selected" href="#">On Sale</a><a href="#">Catalog</a><a href="#">Pricing</a><a href="#">Contact</a>
           </nav>
         </div><!-- .wrapper -->
-      </div>
-      <!--/////////// Ends Nav Bar //////////-->
+      </div>  <!--/////////// Ends Nav Bar //////////-->
+    </header><!--/////////// Ends Header //////////-->
 
-    </header>
-    <!--/////////// Ends Header //////////-->
 
     <div id="wood" class="clearfix"><!-- start wood texture -->
 
@@ -70,11 +66,12 @@
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
-        
+
         <h2 class="milk_text">Featured Brands</h2>
 
         <!--/////////// Featured Brands //////////-->
-        <section class="shadow">
+    <div class="clearfix">
+        <section id = "shoes" class="shadow">
           <figure>
             <img src="images/shoes_on_grass.jpg" alt="Photo of shoes in the wet grass">
             <figcaption>royalty free image from www.sxc.hu</figcaption>
@@ -88,9 +85,9 @@
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
         <!--/////////// Ends Featured Brands //////////-->
-        
+
         <!--/////////// Archive List //////////-->
-        <section class="shadow">
+        <section id = "archive" class="shadow">
           <h2>Shoe Archive</h2>
           <h3><a href="#">2014</a></h3>
           <ul>
@@ -133,8 +130,10 @@
           </ul>
         </section>
         <!--/////////// End Archive List //////////-->
+     </div> <!--clearfix -->
 
-        <!--/////////// Deals //////////-->
+  <div class = "cols3 clearfix"
+        <!--///// Deals //////////-->
         <section class="shadow">
           <figure>
             <img src="images/lady_bug_shoe.jpg" alt="Pair of Lady Bug Shoes">
@@ -165,16 +164,14 @@
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </section>
         <!--/////////// Ends Deals //////////-->
-
+    </div> <!-- cols3 -->
       </div><!-- .wrapper -->
 
     </div><!-- #wood -->
 
     <!--/////////// Details //////////-->
     <section id="details" class="clearfix">
-
-      <div class="wrapper">
-
+      <div class="wrapper cols3">
         <div class="border_right">
           <h3>Contact</h3>
           <p>email: <a href="mailto:info@zhwshoes.com">info@zhwshoes.com</a><br>
