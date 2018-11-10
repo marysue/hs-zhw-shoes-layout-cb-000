@@ -121,7 +121,7 @@ iframe {
     float: left;
   /*  background: yellow; */
     width: 66%;
-    padding: 10px;
+    margin: 10px;
 }
 
 #archive {
